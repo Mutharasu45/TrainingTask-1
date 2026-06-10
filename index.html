@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Demo Task</title>
+</head>
+<body>
+
+   
+    <header>
+        <h1>HTML All Tags Demo Page</h1>
+        <p>This page demonstrates various HTML tags.</p>
+    </header>
+
+    <hr>
+
+   
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#table">Table</a> |
+        <a href="#form">Form</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    
+    <section id="about">
+        <h2>About HTML</h2>
+
+        <p>
+            HTML stands for <bold>HyperText Markup Language</bold>.
+            It is used to create <em>web pages</em>.
+        </p>
+
+        <blockquote>
+            "HTML is the backbone of every website."
+        </blockquote>
+
+        <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              width="550" height="300">
+
+        <br><br>
+
+        <a href=https://www.google.com/search?q=html+&sca_esv=4a455b0f3ad2390b&sxsrf=ANbL-n7PuyE03f9lE2og5aMBDL8RN_N9jg%3A1781077880027&source=hp&ei=dxcpapyBPL2OseMP_efjuAY&iflsig=AFdpzrgAAAAAaikliL8fACJrGMD4a8TCKg0250qsB8pA&ved=0ahUKEwjcmOqSmPyUAxU9R2wGHf3zGGcQ4dUDCCg&uact=5&oq=html+&gs_lp=Egdnd3Mtd2l6IgVodG1sIDIEECMYJzIKEAAYgAQYigUYQzILEAAYgAQYigUYkQIyDRAAGIAEGBQYhwIYsQMyChAAGIAEGIoFGEMyDRAAGIAEGIoFGEMYsQMyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATINEAAYgAQYigUYQxixAzIFEAAYgARIoJ0BUNsKWMmYAXAHeACQAQCYAdgBoAHwDaoBBjAuMTAuMbgBA8gBAPgBAZgCEqAC0w6oAgrCAgcQIxjqAhgnwgIQECMYnQYY6AYY3QUY6gIYJ8ICFhAuGMcBGNEDGJ0GGOgGGN0FGOoCGCfCAgoQIxjwBRjqAhgnwgINECMY8AUYyQIY6gIYJ8ICDRAjGMkCGPAFGOoCGCfCAgcQIxjJAhgnwgIQECMY8AUYyQIYgAQYigUYJ8ICChAjGIAEGIoFGCfCAggQABiABBixA8ICDhAAGIAEGIoFGJECGLEDmAMP8QW6gOpmf2kMuJIHBTcuOS4yoAfXPrIHBTAuOS4yuAeoDsIHCDAuNy4xMC4xyAdEgAgB&sclient=gws-wiz" target="_blank">
+            Visit Google
+        </a>
+    </section>
+
+    <hr>
+
+
+    <section>
+        <h2>Lists Example</h2>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+        </ul>
+    </section>
+
+    <hr>
+
+   
+    <section id="table">
+        <h2>Student Table</h2>
+
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Marks</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>Muthu</td>
+                <td>Bsc</td>
+                <td>85</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Rahul</td>
+                <td>IT</td>
+                <td>90</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Priya</td>
+                <td>ECE</td>
+                <td>88</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+   
+    <section id="form">
+        <h2>Registration Form</h2>
+
+        <form>
+
+            <label>Full Name:</label><br>
+            <input type="text" placeholder="Enter Name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" placeholder="Enter Email"><br><br>
+
+            <label>Password:</label><br>
+            <input type="password"><br><br>
+
+            <label>Phone Number:</label><br>
+            <input type="tel"><br><br>
+
+            <label>Date of Birth:</label><br>
+            <input type="date"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <br><br>
+
+            <label>Skills:</label><br>
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JavaScript
+            <br><br>
+
+            <label>Department:</label><br>
+            <select>
+                <option>CSE</option>
+                <option>IT</option>
+                <option>ECE</option>
+                <option>EEE</option>
+            </select>
+
+            <br><br>
+
+            <label>Address:</label><br>
+            <textarea rows="4" cols="30"></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+
+        </form>
+    </section>
+
+    <hr>
+
+
+    <section>
+        <h2>Audio & Video</h2>
+
+        <audio controls>
+            <source src="sample.mp3" type="audio/mpeg">
+        </audio>
+
+        <br><br>
+
+        <video width="320" controls>
+            <source src="sample.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <hr>
+
+   
+    <section id="contact">
+        <h2>Contact Information</h2>
+
+        <address>
+            Email: demo@example.com
+            Phone: +91 8248271900
+        </address>
+    </section>
+
+    <hr>
+
+    
+    <footer>
+        <p>&copy; 2026 HTML Demo Project</p>
+    </footer>
+
+</body>
+</html>
